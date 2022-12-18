@@ -21,8 +21,6 @@ monitors:
     url: 'https://deals.gk.wtf' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
 
   - id: gianklug
     name: gianklug.com
@@ -30,7 +28,6 @@ monitors:
     url: 'https://gianklug.com'
     method: GET
     expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
 
   - id: ott
     name: yt.gk.wtf
